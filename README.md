@@ -10,20 +10,22 @@ It showcases my skills, projects, internships, certifications, and contact infor
 * Framer Motion (animations)
 * HTML5 & CSS
 ## 📂 Features
-Responsive modern UI design
-Smooth scrolling navigation
-Animated sections (Framer Motion)
-Projects showcase
-Skills section
-Internship & certifications
-Contact form UI
-Social links (LinkedIn, GitHub)
+* Responsive modern UI design
+* Smooth scrolling navigation
+* Animated sections (Framer Motion)
+* Projects showcase
+* Skills section
+* Internship & certifications
+* Contact form UI
+* Social links (LinkedIn, GitHub)
 ## 📸 Sections
-Home (Hero section with profile + intro)
-About Me
-Education
-Skills
-Projects
-Internships
-Certifications
-Contact
+* Home (Hero section with profile + intro)
+* About Me
+* Education
+* Skills
+* Projects
+* Internships
+* Certifications
+* Contact
+## 👩‍💻 Author
+Yamini
