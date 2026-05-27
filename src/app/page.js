@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-<section id = "projects" className="py-16 relative z-10">
+  <section id="projects" className="scroll-mt-24 py-16 relative z-10">
 
   <h2 className="text-4xl font-bold text-center mb-12">
     Projects
@@ -467,7 +467,7 @@ export default function Home() {
 
 </section>
      {/* Contact Section */}
-<section id = "contact" className="py-18 text-center relative z-10">
+<section id="contact" className="scroll-mt-24 py-18 text-center relative z-10">
 
   <h2 className="text-4xl font-bold mb-6">
     Contact Me
