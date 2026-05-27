@@ -6,7 +6,7 @@ export default function Home() {
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ duration: 0.8 }}
-  className="min-h-screen bg-[#030712] text-white px-6 pt-20 relative overflow-hidden"
+  className="min-h-screen bg-[#030712] text-white px-6 pt-20 relative"
 >
       {/* Blur Background Effects */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500 rounded-full blur-3xl opacity-20"></div>
