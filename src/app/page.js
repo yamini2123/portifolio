@@ -43,12 +43,12 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="#projects"
-    whileHover={{ scale: 1.1, color: "#60a5fa" }}
-    transition={{ duration: 0.2 }}
-  >
-    Projects
-  </motion.a>
+  onClick={() => {
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  }}
+>
+  Projects
+</motion.a>
 
   <motion.a
     href="#contact"
