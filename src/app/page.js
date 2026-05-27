@@ -43,7 +43,7 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="#projects"
+    href="#Projects"
     whileHover={{ scale: 1.1, color: "#60a5fa" }}
     transition={{ duration: 0.2 }}
   >
@@ -51,7 +51,7 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="#contact"
+    href="#Contact"
     whileHover={{ scale: 1.1, color: "#60a5fa" }}
     transition={{ duration: 0.2 }}
   >
