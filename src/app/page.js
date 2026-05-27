@@ -43,7 +43,7 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="#Projects"
+    href="#projects"
     whileHover={{ scale: 1.1, color: "#60a5fa" }}
     transition={{ duration: 0.2 }}
   >
@@ -51,7 +51,7 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="#Contact"
+    href="#contact"
     whileHover={{ scale: 1.1, color: "#60a5fa" }}
     transition={{ duration: 0.2 }}
   >
@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-<section id = "Projects" className="py-16 relative z-10">
+<section id = "projects" className="py-16 relative z-10">
 
   <h2 className="text-4xl font-bold text-center mb-12">
     Projects
@@ -467,7 +467,7 @@ export default function Home() {
 
 </section>
      {/* Contact Section */}
-<section id = "Contact" className="py-18 text-center relative z-10">
+<section id = "contact" className="py-18 text-center relative z-10">
 
   <h2 className="text-4xl font-bold mb-6">
     Contact Me
