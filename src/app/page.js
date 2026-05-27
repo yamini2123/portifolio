@@ -91,7 +91,7 @@ export default function Home() {
     {/* Links BELOW text */}
     <div className="flex justify-center md:justify-start gap-4">
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/unnam-yamini2027/"
         target="_blank"
         className="px-5 py-2 border border-blue-400 text-blue-300 rounded-full hover:bg-blue-500/20"
       >
