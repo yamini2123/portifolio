@@ -6,7 +6,7 @@ export default function Home() {
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ duration: 0.8 }}
-  className="min-h-screen bg-[#030712] text-white px-6 pt-20 relative"
+  className="min-h-screen bg-[#030712] text-white px-6 pt-20 relative overflow-hidden"
 >
       {/* Blur Background Effects */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500 rounded-full blur-3xl opacity-20"></div>
@@ -21,7 +21,7 @@ export default function Home() {
   className="fixed top-0 left-0 w-full z-50 flex justify-between items-center py-4 px-6 md:px-12 backdrop-blur-md bg-[#030712]/60 border-b border-white/10"
 >
   <h1 className="text-2xl font-bold">
-    Portifolio
+    Yamini
   </h1>
 
  <div className="flex gap-6 text-gray-300">
@@ -43,12 +43,12 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-  onClick={() => {
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
-  }}
->
-  Projects
-</motion.a>
+    href="#projects"
+    whileHover={{ scale: 1.1, color: "#60a5fa" }}
+    transition={{ duration: 0.2 }}
+  >
+    Projects
+  </motion.a>
 
   <motion.a
     href="#contact"
@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-  <section id = "projects" className="scroll-mt-24 py-16 relative z-10">
+  <section id="projects" className="scroll-mt-24 py-16 relative z-10">
 
   <h2 className="text-4xl font-bold text-center mb-12">
     Projects
@@ -467,7 +467,7 @@ export default function Home() {
 
 </section>
      {/* Contact Section */}
-<section id = "contact" className="scroll-mt-24 py-18 text-center relative z-10">
+<section id="contact" className="scroll-mt-24 py-18 text-center relative z-10">
 
   <h2 className="text-4xl font-bold mb-6">
     Contact Me
