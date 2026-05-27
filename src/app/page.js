@@ -21,7 +21,7 @@ export default function Home() {
   className="fixed top-0 left-0 w-full z-50 flex justify-between items-center py-4 px-6 md:px-12 backdrop-blur-md bg-[#030712]/60 border-b border-white/10"
 >
   <h1 className="text-2xl font-bold">
-    Yamini
+    Portifolio
   </h1>
 
  <div className="flex gap-6 text-gray-300">
