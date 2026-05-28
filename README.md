@@ -27,5 +27,7 @@ It showcases my skills, projects, internships, certifications, and contact infor
 * Internships
 * Certifications
 * Contact
+## LIVE DEMO 
+ https://portifolio-snowy-mu.vercel.app/
 ## 👩‍💻 Author
 Yamini
