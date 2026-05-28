@@ -109,18 +109,23 @@ export default function Home() {
   </motion.div>
 
   {/* Right Image */}
-  <motion.div
-    initial={{ opacity: 0, x: 80 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.8 }}
-    className="flex justify-center"
-  >
-    <img
-      src="/121.jpeg"
-      alt="Profile"
-      className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-blue-400 shadow-xl hover:scale-105 transition"
-    />
-  </motion.div>
+<motion.div
+  initial={{ opacity: 0, x: 80 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  className="relative flex justify-center items-center"
+>
+
+  {/* Blue Glow Background */}
+<div className="absolute w-60 h-60 md:w-72 md:h-72 bg-blue-500 rounded-full blur-2xl opacity-20"></div>
+
+{/* Image */}
+<img
+  src="/121.jpeg"
+  alt="Profile"
+  className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-blue-400 shadow-[0_0_30px_rgba(59,130,246,0.5)] hover:scale-105 transition duration-300"
+/>
+</motion.div>
 
 </section>
       {/* About Section */}
