@@ -1,7 +1,4 @@
 "use client";
-import { FaPython, FaHtml5, FaCss3Alt, FaJava, FaGithub } from "react-icons/fa";
-import { SiMysql, SiPowerbi, SiPandas, SiNumpy, SiMicrosoftexcel, SiVscode } from "react-icons/si";
-import { TbDatabaseSearch } from "react-icons/tb";
 import { motion } from "framer-motion";
 export default function Home() {
   return (
@@ -199,69 +196,69 @@ export default function Home() {
 
 </section>
 
-     {/* Skills Section */}
-<section id="skills" className="py-16 text-center relative z-10">
+      {/* Skills Section */}
+      <section id = "skills" className="py-16 text-center relative z-10">
 
-  <h2 className="text-4xl font-bold mb-12">
-    Skills
-  </h2>
+        <h2 className="text-4xl font-bold mb-12">
+          Skills
+        </h2>
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
 
-    <div className="p-6 rounded-2xl bg-blue-500/20 border border-blue-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-blue-300">Python</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Python</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-green-500/20 border border-green-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-green-300">SQL</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">SQL</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-purple-500/20 border border-purple-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-purple-300">Power BI</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Power BI</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-pink-500/20 border border-pink-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-pink-300">HTML</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">HTML</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-yellow-500/20 border border-yellow-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-yellow-300">CSS</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">CSS</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-cyan-500/20 border border-cyan-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-cyan-300">Excel</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Excel</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-orange-500/20 border border-orange-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-orange-300">Data Cleaning</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Data Cleaning</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-indigo-500/20 border border-indigo-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-indigo-300">Pandas</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Pandas</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-emerald-500/20 border border-emerald-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-emerald-300">NumPy</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">NumPy</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-rose-500/20 border border-rose-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-rose-300">Dashboard Design</h3>
-    </div>
+        <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Dashboard Design</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-sky-500/20 border border-sky-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-sky-300">VS Code</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">VS Code</h3>
+          </div>
 
-    <div className="p-6 rounded-2xl bg-teal-500/20 border border-teal-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-teal-300">Git & GitHub</h3>
-    </div>
-    <div className="p-6 rounded-2xl bg-orange-500/20 border border-orange-400 hover:scale-105 transition">
-      <h3 className="text-xl font-semibold text-orange-300">Java</h3>
-    </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Git & GitHub</h3>
+          </div>
+          <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-6 rounded-2xl hover:scale-105 transition duration-300">
+            <h3 className="text-xl font-semibold">Java</h3>
+          </div>
 
+        </div>
 
-  </div>
-</section>
+      </section>
 
       {/* Projects Section */}
   <section id="projects" className="scroll-mt-24 py-16 relative z-10">
