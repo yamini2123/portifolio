@@ -309,28 +309,28 @@ export default function Home() {
         </a>
       </div>
     </div>
-
-    {/* Project 3 */}
+     {/* Project 3 */}
     <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-8 rounded-2xl hover:scale-105 transition duration-300">
       <h3 className="text-2xl font-semibold mb-4">
-        Sales Dashboard
+        Sales & Revenue Analytics Dashboard
       </h3>
 
-      <p className="text-gray-400 mb-4">
-        Interactive Power BI dashboard for analyzing sales and revenue trends.
-      </p>
-
       <div className="flex gap-4 justify-center">
-        <button className="px-5 py-2 bg-blue-500 text-white rounded-full">
-          Live Demo
-        </button>
-
-        <button className="px-5 py-2 border border-blue-400 text-blue-300 rounded-full">
+        <a href="https://github.com/yamini2123/PowerBi-sales-dashboard"
+           target="_blank"
+           className="px-5 py-2 border border-blue-400 text-blue-300 rounded-full hover:bg-blue-500/20">
           GitHub
-        </button>
+        </a>
+
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiNTUxYTc4YjMtZTk3Zi00ZWEwLWFhMzQtNTg3ZTg4MWY1N2UzIiwidCI6ImFiMTUzYjlmLTJjNzUtNDhiZC05NWMzLTg0ZmVkY2MyYjQ5MSJ9"
+           target="_blank"
+           className="px-5 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">
+          Live Demo
+        </a>
       </div>
     </div>
 
+    
     {/* Project 4 */}
     <div className="bg-white/10 backdrop-blur-lg border border-white/10 p-8 rounded-2xl hover:scale-105 transition duration-300">
       <h3 className="text-2xl font-semibold mb-4">
